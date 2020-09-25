@@ -49,7 +49,7 @@ public class MovieAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     // Involves populating data into the item through holder
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        Log.d("MovieAdapter","onBindViewHolder (Normal) " + position);
+        Log.d("MovieAdapter","onBindViewHolder " + position);
 
         // Get the movie at the passed-in position
         Movie movie = movies.get(position);
@@ -68,8 +68,6 @@ public class MovieAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         return movies.size();
     }
 
-    // Checks if movie has 7.5 or more stars
-    @Override
     public int getItemViewType(int position) {
         Movie movie = movies.get(position);
         if (movie.getVoteAverage() >= 7.5) {

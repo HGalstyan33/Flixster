@@ -46,7 +46,7 @@
         android:textColor="@color/grey"
         android:scrollHorizontally="true"
         android:ellipsize="end"
-        android:maxLines="9"
+        android:maxLines="7"
         tools:text="Movie Description" />
 
 </RelativeLayout>
