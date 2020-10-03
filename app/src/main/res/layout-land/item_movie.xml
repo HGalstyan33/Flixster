@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -26,11 +27,11 @@
         android:layout_marginTop="55dp"
         android:layout_marginEnd="25dp"
         android:layout_toEndOf="@+id/idPoster"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:scrollHorizontally="true"
         android:ellipsize="end"
         android:maxLines="2"
+        android:scrollHorizontally="true"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         tools:text="Movie Title" />
 
     <TextView
@@ -43,10 +44,10 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="25dp"
         android:layout_toEndOf="@+id/idPoster"
-        android:textColor="@color/white"
-        android:scrollHorizontally="true"
         android:ellipsize="end"
         android:maxLines="5"
+        android:scrollHorizontally="true"
+        android:textColor="@color/grey"
         tools:text="Movie Description" />
 
 </RelativeLayout>

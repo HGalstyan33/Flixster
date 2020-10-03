@@ -18,6 +18,16 @@
         android:layout_marginBottom="10dp"
         android:layout_marginEnd="15dp"
         android:adjustViewBounds="true"
+        android:visibility="visible"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/play_video" />
 
 </RelativeLayout>
