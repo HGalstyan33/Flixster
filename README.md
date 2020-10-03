@@ -27,7 +27,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="Flixster2.gif?raw=true" width="450px">
 
 ### Notes
-- Figuring out how to incorporate YouTubeBaseActivity to get popular movies to play on click
+- Couldn't incorporate YouTubeBaseActivity to get popular movies to play on click
+- Scene transitions were having issues with activity
 
 ---
 
