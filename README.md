@@ -1,7 +1,33 @@
 # Flix
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+---
+
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+
+- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+
+#### BONUS
+
+- [ ] Implement a shared element transition when user clicks into the details of a movie. (1 point)
+- [ ] Trailers for popular movies are played automatically when the movie is selected. (1 point)
+  - [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+  - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
+- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played. (1 point)
+- [ ] Apply the popular ButterKnife annotation library to reduce view boilerplate. (1 point)
+- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
+
+### App Walkthough GIF
+
+<img src="YOUR_GIF_URL_HERE" width=250><br>
+
+### Notes
+- Figuring out how to incorporate YouTubeBaseActivity to get popular movies to play on click
 
 ---
 
@@ -19,15 +45,17 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 - [X] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
 - [X] (2pts) Improved the user interface by experimenting with styling and coloring.
-- [ ] (2pts) For popular movies (i.e. a movie voted for more than 7.5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
+- [X] (2pts) For popular movies (i.e. a movie voted 7.5 or more stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="Flixster.gif?raw=true" width="450px">
 
 ### Notes
 - Trouble with Glide at first and figuring out how to link the images and placeholders to appear properly where they needed to
 - Popular movies weren't being displayed properly
+
+---
 
 ### Open-source libraries used
 
