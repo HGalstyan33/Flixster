@@ -3,7 +3,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ---
 
-## Flix Part 2
+## Part 2
 
 Time spent: **6** hours spent in total
 
@@ -34,7 +34,7 @@ Time spent: **6** hours spent in total
 
 ---
 
-## Flix Part 1
+## Part 1
 
 Time spent: **8** hours spent in total
 
